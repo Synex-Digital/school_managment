@@ -17,6 +17,7 @@ module.exports = {
                 in: "'Inter', sans-serif",
             },
             spacing: {
+                "10px": "10px",
                 "30px": "30px",
                 "32px": "32px",
                 "60px": "60px",
