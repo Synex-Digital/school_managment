@@ -607,6 +607,10 @@ video {
   margin-bottom: 30px;
 }
 
+.mb-30px {
+  margin-bottom: 30px;
+}
+
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -623,6 +627,10 @@ video {
   margin-bottom: 60px;
 }
 
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -637,14 +645,6 @@ video {
 
 .mt-60px {
   margin-top: 60px;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
-}
-
-.mr-3 {
-  margin-right: 0.75rem;
 }
 
 .block {
@@ -679,12 +679,28 @@ video {
   height: 250px;
 }
 
+.h-\[275px\] {
+  height: 275px;
+}
+
+.h-\[360px\] {
+  height: 360px;
+}
+
+.h-\[380px\] {
+  height: 380px;
+}
+
 .h-\[500px\] {
   height: 500px;
 }
 
 .h-full {
   height: 100%;
+}
+
+.h-\[276px\] {
+  height: 276px;
 }
 
 .w-1\/5 {
@@ -707,8 +723,16 @@ video {
   width: 75%;
 }
 
+.w-\[1596\] {
+  width: 1596;
+}
+
 .w-\[32\%\] {
   width: 32%;
+}
+
+.w-\[420px\] {
+  width: 420px;
 }
 
 .w-\[550px\] {
@@ -721,6 +745,30 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[1596px\] {
+  width: 1596px;
+}
+
+.w-\[1096\] {
+  width: 1096;
+}
+
+.w-\[1096px\] {
+  width: 1096px;
+}
+
+.w-\[2096px\] {
+  width: 2096px;
+}
+
+.w-\[096px\] {
+  width: 096px;
+}
+
+.w-\[1296px\] {
+  width: 1296px;
 }
 
 .cursor-pointer {
@@ -745,11 +793,6 @@ video {
        column-gap: 1rem;
 }
 
-.gap-x-7 {
-  -moz-column-gap: 1.75rem;
-       column-gap: 1.75rem;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
@@ -760,10 +803,6 @@ video {
 
 .border-b {
   border-bottom-width: 1px;
-}
-
-.border-r {
-  border-right-width: 1px;
 }
 
 .border-Secondary {
@@ -791,6 +830,11 @@ video {
   background-color: rgb(245 245 245 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#FFE9F1\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 233 241 / var(--tw-bg-opacity));
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -801,37 +845,25 @@ video {
   background-color: rgb(28 0 51 / var(--tw-bg-opacity));
 }
 
-.bg-\[\] {
-  background-color: ;
-}
-
-.bg-\[\#\] {
-  background-color: #;
-}
-
-.bg-\[\#FFE9F1\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 233 241 / var(--tw-bg-opacity));
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-10px {
   padding: 10px;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
-.p-\[\] {
-  padding: ;
-}
-
-.p-\[6px\] {
-  padding: 6px;
-}
-
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-30px {
+  padding: 30px;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-6 {
@@ -892,6 +924,11 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-hd {
