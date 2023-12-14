@@ -1,65 +1,692 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        />
+        <link href="/dist/output.css" rel="stylesheet" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/dist/output.css" rel="stylesheet">
-</head>
+    <body>
 
-<body>
-    <header>
-        <div class="container mx-auto flex justify-between py-8">
-            <img src="./assets/Logo.png" alt="Logo" class="h-8 w-[80px]" />
-            <div class="flex items-center gap-x-4">
-                <p class="font-in font-medium text-lg text-primary">
-                    Follow us:
-                </p>
-                <img class="h-8 w-8" src="./assets/Facebook.png" alt="Facebook" />
-                <img class="h-8 w-8" src="./assets/Linkedin.png" alt="Linkedin" />
-                <img class="h-8 w-8" src="./assets/Twitter.png" alt="Twitter" />
+
+        <!-- Heading part start-->
+        <header>
+            <div class="container mx-auto flex justify-between py-8">
+                <img src="./assets/Logo.png" alt="Logo" class="h-8 w-[80px]" />
+                <div class="flex items-center gap-x-4">
+                    <p class="font-in font-medium text-lg text-primary">
+                        Follow us:
+                    </p>
+                    <img
+                        class="h-8 w-8"
+                        src="./assets/Facebook.png"
+                        alt="Facebook"
+                    />
+                    <img
+                        class="h-8 w-8"
+                        src="./assets/Linkedin.png"
+                        alt="Linkedin"
+                    />
+                    <img
+                        class="h-8 w-8"
+                        src="./assets/Twitter.png"
+                        alt="Twitter"
+                    />
+                </div>
             </div>
-        </div>
-    </header>
-    <nav class="bg-navcolor">
-        <div class="container mx-auto flex justify-between py-5">
-            <a
-                class="text-white font-in font-semibold text-lg hover:bg-Secondary transition ease-in-out delay-150 cursor-pointer px-6 py-3">Home</a>
-            <a
-                class="text-white font-in font-semibold text-lg hover:bg-Secondary transition ease-in-out delay-150 cursor-pointer px-6 py-3">About
-                us</a>
-            <a
-                class="text-white font-in font-semibold text-lg hover:bg-Secondary transition ease-in-out delay-150 cursor-pointer px-6 py-3">Department</a>
-            <a
-                class="text-white font-in font-semibold text-lg hover:bg-Secondary transition ease-in-out delay-150 cursor-pointer px-6 py-3">Notice</a>
-            <a
-                class="text-white font-in font-semibold text-lg hover:bg-Secondary transition ease-in-out delay-150 cursor-pointer px-6 py-3">Admission</a>
-            <a
-                class="text-white font-in font-semibold text-lg hover:bg-Secondary transition ease-in-out delay-150 cursor-pointer px-6 py-3">Result</a>
-            <a
-                class="text-white font-in font-semibold text-lg hover:bg-Secondary transition ease-in-out delay-150 cursor-pointer px-6 py-3">Teacher</a>
-            <a
-                class="text-white font-in font-semibold text-lg hover:bg-Secondary transition ease-in-out delay-150 cursor-pointer px-6 py-3">News</a>
-        </div>
-    </nav>
-    <section class="bg-[#F5F5F5]">
-        <div class="container mx-auto">
-            <p class="font-in font-semibold text-lg text-white bg-Secondary inline-block px-6 py-3">
-                latest News
-            </p>
-        </div>
-    </section>
-    <main class="mt-30px">
-        <div class="container mx-auto flex gap-x-7">
-            <section class="w-9/12">
-                <div class="w-full relative">
-                    <div class="w-full bg-black opacity-50 absolute z-[51] h-full"></div>
-                    <img class="w-full h-[500px]" src="./assets/Banner.png" alt="Banner" />
+        </header>
+        <!-- Heading part end-->
+
+
+
+        <!-- navber part start -->
+        <nav class="bg-navcolor">
+            <div class="container mx-auto flex justify-between py-5">
+                <a
+                    class="text-white font-in font-semibold text-lg hover:bg-Secondary transition ease-in-out delay-150 cursor-pointer px-6 py-3"
+                    href="index.html"
+                    >Home</a
+                >
+                <a
+                    class="text-white font-in font-semibold text-lg hover:bg-Secondary transition ease-in-out delay-150 cursor-pointer px-6 py-3"
+                    href="about.html"
+                    >About us</a
+                >
+                <a
+                    class="text-white font-in font-semibold text-lg hover:bg-Secondary transition ease-in-out delay-150 cursor-pointer px-6 py-3"
+                    href="department.html"
+                    >Department</a
+                >
+                <a
+                    class="text-white font-in font-semibold text-lg hover:bg-Secondary transition ease-in-out delay-150 cursor-pointer px-6 py-3"
+                    href="notice.html"
+                    >Notice</a
+                >
+                <a
+                    class="text-white font-in font-semibold text-lg hover:bg-Secondary transition ease-in-out delay-150 cursor-pointer px-6 py-3"
+                    href="admission.html"
+                    >Admission</a
+                >
+                <a
+                    class="text-white font-in font-semibold text-lg hover:bg-Secondary transition ease-in-out delay-150 cursor-pointer px-6 py-3"
+                    href="result.html"
+                    >Result</a
+                >
+                <a
+                    class="text-white font-in font-semibold text-lg hover:bg-Secondary transition ease-in-out delay-150 cursor-pointer px-6 py-3"
+                    href="teacherprofile.html"
+                    >Teacher</a
+                >
+                <a
+                    class="text-white font-in font-semibold text-lg hover:bg-Secondary transition ease-in-out delay-150 cursor-pointer px-6 py-3"
+                    href="news.html"
+                    >News</a
+                >
+            </div>
+        </nav>
+        <!-- navber part end -->
+
+
+
+        <!-- Sub Heading part start-->
+        <section class="bg-[#F5F5F5]">
+            <div class="container mx-auto">
+                <p
+                    class="font-in font-semibold text-lg text-white bg-Secondary inline-block px-6 py-3"
+                >
+                    latest News
+                </p>
+            </div>
+        </section>
+        <!-- Sub Heading part end-->
+
+
+
+        <!-- main body part start -->
+        <main class="mt-30px">
+            <section class="container mx-auto flex gap-x-30px">
+                <section class="w-9/12">
+
+
+
+                    <!-- Banner start -->
+                    <div class="w-full relative">
+                        <p
+                            class="absolute left-10 bottom-6 font-in font-bold text-2xl text-white z-[52]"
+                        >
+                            Classroom
+                        </p>
+                        <div
+                            class="w-full bg-black opacity-50 absolute z-[51] h-full"
+                        ></div>
+                        <img
+                            class="w-full h-[500px]"
+                            src="./assets/Banner.png"
+                            alt="Banner"
+                        />
+                    </div>
+                    <!-- Banner end -->
+
+
+
+                    <!-- Artical start -->
+                    <article>
+                        <h2
+                            class="text-primary font-bold font-in text-hd mt-30px mb-4"
+                        >
+                            ইতিহাস
+                        </h2>
+                        <p class="text-ptagcolor font-in text-justify">
+                            ১৯৫৮ খ্রিষ্টাব্দের ১৬ মে, তদানিন্তন রংপুর জেলার
+                            নীলফামারী মহাকুমা সদরে স্থানীয় গণ্যমান্য ও
+                            শিক্ষানুরাগী ব্যাক্তিবর্গের উদ্যোগে নীলফামারী
+                            কলেজের যাত্রা শুরু হয়। প্রতিষ্ঠাকালীন সময় থেকে
+                            রাজশাহী বোর্ড ও রাজশাহী বিশ্ববিদ্যালয়ের স্বীকৃতি
+                            নিয়ে উচ্চ মাধ্যমিক এবং স্নাতক পাশ কোর্সের যাত্রা
+                            শুরু। খুব অল্প পরিসরে এবং মাত্র কয়েকটি বিষয় নিয়ে
+                            উচ্চ মাধ্যমিক ও স্নাতক শ্রেণির পাঠদানের মাধ্যমে এই
+                            কলেজের যাত্রা শুরু হলেও স্বাধীনতা উত্তর বাংলাদেশে
+                            এবং নীলফামারী মহাকুমাকে জেলায় রূপান্তরের সাথে সাথে
+                            এই শিক্ষা প্রতিষ্ঠানের কলেবর বৃদ্ধি পেতে থাকে এবং
+                            সময়ের ধারাবাহিকতায় বর্তমানে এই মহাবিদ্যালয় দেশের
+                            অন্যতম বিদ্যাপীঠ হিসেবে স্বীকৃত ।
+                        </p>
+                    </article>
+                    <article>
+                        <h2
+                            class="text-primary font-bold font-in text-hd mt-30px mb-4"
+                        >
+                            পরিচিতি
+                        </h2>
+                        <p class="text-ptagcolor font-in text-justify">
+                            বর্তমানে এই কলেজ ক্যাম্পাসের জমির পরিমান ২৪.২৫ একর।
+                            মোট ছাত্র ছাত্রীর সংখ্যা প্রায় ১০,০০০(দশ হাজার) জন।
+                            ছাত্র ছাত্রীদের জন্য ২টি আবাসিক হোস্টেল রয়েছে।
+                            শুরুতে শুধু উচ্চ মাধ্যমিক শ্রেণিতে পাঠ দানের
+                            নিমিত্তে সার্বিক কাঠামো এবং পাঠদানের পরিকল্পনা
+                            সীমিত থাকলেও বর্তমান সময়ের চাহিদায় এর পরিসীমা
+                            উত্তরোত্তর বৃদ্ধি পাচ্ছে। প্রয়োজনের তাগিদে ১৯৭৯
+                            সালে সরকারি করণের পর থেকে পর্যায়ক্রমিকভাবে স্নাতক
+                            (সম্মান) শ্রেণিতে পাঠদানসহ স্নাতকোত্তর শ্রেণিতে
+                            পাঠদান অব্যাহত রয়েছে। বর্তমানে এই কলেজে মোট ১৪ টি
+                            বিষয়ে মাস্টার্স (শেষ পর্ব) পাঠদানের উপযুক্ত পরিবেশ
+                            সৃষ্টি হয়েছে। নীলফামারী সরকারি কলেজের বর্তমানে
+                            অনার্সভুক্ত বিভাগসমূহ হলো; কলা অনুষদে ৭টি
+                            যথা-বাংলা,ইংরেজি,ইতিহাস,দর্শন,
+                            রাষ্ট্রাবিজ্ঞান,অর্থনীতি এবং ইসলামের ইতিহাস ও
+                            সংস্কৃতি। বিজ্ঞান অনুষদে ৫টি যথা-পদার্থ,
+                            রসায়ন,উদ্ভিদবিদ্যা, প্রাণিবিদ্যা, ও গণিত। বাণিজ্য
+                            অনুষদে ২টি যথা-ব্যবস্থাপনা ও হিসাববিজ্ঞান
+                        </p>
+                    </article>
+                    <!-- Artical end -->
+
+
+                    <!-- read more button -->
+                    <div class="mt-10">
+                        <a
+                            class="cursor-pointer text-xl font-semibold font-in text-navcolor py-[10px] px-6 border border-navcolor hover:bg-navcolor hover:text-white duration-500 ease-in-out"
+                            >Read More</a
+                        >
+                    </div>
+                    <!-- read more button -->
+
+
+                </section>
+
+
+
+                <!-- Aside part start -->
+                <aside class="w-3/12">
+                    <section>
+                        <div class="border-b pb-30px">
+                            <img
+                                class="w-full h-[214px]"
+                                src="./assets/Mujib.png"
+                                alt="Mujib"
+                            />
+                        </div>
+                        <div class="border-b pb-30px my-30px">
+                            <div class="border p-4 border-bordercolor">
+                                <img
+                                    class="w-full h-[250px]"
+                                    src="./assets/Frame.png"
+                                    alt="Frame"
+                                />
+                                <p
+                                    class="font-in text-Secondary mt-5 mb-4 text-center"
+                                >
+                                    Principal
+                                </p>
+                                <h3
+                                    class="font-in font-bold text-xl text-primary text-center"
+                                >
+                                    Lt Col Md Abdul Jawad, AEC
+                                </h3>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="border p-4 border-bordercolor">
+                                <img
+                                    class="w-full h-[250px]"
+                                    src="./assets/Frame.png"
+                                    alt="Frame"
+                                />
+                                <p
+                                    class="font-in text-Secondary mt-5 mb-4 text-center"
+                                >
+                                    Chairman
+                                </p>
+                                <h3
+                                    class="font-in font-bold text-xl text-primary text-center"
+                                >
+                                    Brigadier General Tanveer Gani Chowdhury
+                                </h3>
+                            </div>
+                        </div>
+                    </section>
+                </aside>
+                <!-- Aside part end -->
+
+
+
+            </section>
+
+
+
+            <!-- Notice Table start-->
+            <section class="mt-60px">
+                <div class="container mx-auto border-b pb-30px">
+                    <div class="flex justify-between items-center mb-6">
+                        <h2 class="text-primary font-bold font-in text-hd">
+                            নোটিশ
+                        </h2>
+                        <a
+                            class="bg-navcolor font-in font-semibold text-xl px-6 py-10px text-white cursor-pointer"
+                            >Show All</a
+                        >
+                    </div>
+                    <table class="w-full text-left">
+                        <tr>
+                            <th
+                                class="border p-10px font-in font-semibold text-lg"
+                            >
+                                Description
+                            </th>
+                            <th class="border p-10px font-semibold text-lg">
+                                Publish Date
+                            </th>
+                            <th class="border p-10px font-semibold text-lg">
+                                Download
+                            </th>
+                        </tr>
+                        <tr>
+                            <td class="text-ptagcolor p-10px border">
+                                একাদশ শ্রেণির বার্ষিক ব্যবহারিক পরীক্ষার
+                                সময়সূচি
+                            </td>
+                            <td class="text-ptagcolor p-10px border">
+                                26-10-2023
+                            </td>
+                            <td
+                                class="text-Secondary p-10px border underline font-medium cursor-pointer"
+                            >
+                                Download
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-ptagcolor p-10px border">
+                                একাদশ শ্রেণির বার্ষিক ব্যবহারিক পরীক্ষার
+                                সময়সূচি
+                            </td>
+                            <td class="text-ptagcolor p-10px border">
+                                26-10-2023
+                            </td>
+                            <td
+                                class="text-Secondary p-10px border underline font-medium cursor-pointer"
+                            >
+                                Download
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-ptagcolor p-10px border">
+                                একাদশ শ্রেণির বার্ষিক ব্যবহারিক পরীক্ষার
+                                সময়সূচি
+                            </td>
+                            <td class="text-ptagcolor p-10px border">
+                                26-10-2023
+                            </td>
+                            <td
+                                class="text-Secondary p-10px border underline font-medium cursor-pointer"
+                            >
+                                Download
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-ptagcolor p-10px border">
+                                একাদশ শ্রেণির বার্ষিক ব্যবহারিক পরীক্ষার
+                                সময়সূচি
+                            </td>
+                            <td class="text-ptagcolor p-10px border">
+                                26-10-2023
+                            </td>
+                            <td
+                                class="text-Secondary p-10px border underline font-medium cursor-pointer"
+                            >
+                                Download
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-ptagcolor p-10px border">
+                                একাদশ শ্রেণির বার্ষিক ব্যবহারিক পরীক্ষার
+                                সময়সূচি
+                            </td>
+                            <td class="text-ptagcolor p-10px border">
+                                26-10-2023
+                            </td>
+                            <td
+                                class="text-Secondary p-10px border underline font-medium cursor-pointer"
+                            >
+                                Download
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-ptagcolor p-10px border">
+                                একাদশ শ্রেণির বার্ষিক ব্যবহারিক পরীক্ষার
+                                সময়সূচি
+                            </td>
+                            <td class="text-ptagcolor p-10px border">
+                                26-10-2023
+                            </td>
+                            <td
+                                class="text-Secondary p-10px border underline font-medium cursor-pointer"
+                            >
+                                Download
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-ptagcolor p-10px border">
+                                একাদশ শ্রেণির বার্ষিক ব্যবহারিক পরীক্ষার
+                                সময়সূচি
+                            </td>
+                            <td class="text-ptagcolor p-10px border">
+                                26-10-2023
+                            </td>
+                            <td
+                                class="text-Secondary p-10px border underline font-medium cursor-pointer"
+                            >
+                                Download
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-ptagcolor p-10px border">
+                                একাদশ শ্রেণির বার্ষিক ব্যবহারিক পরীক্ষার
+                                সময়সূচি
+                            </td>
+                            <td class="text-ptagcolor p-10px border">
+                                26-10-2023
+                            </td>
+                            <td
+                                class="text-Secondary p-10px border underline font-medium cursor-pointer"
+                            >
+                                Download
+                            </td>
+                        </tr>
+                    </table>
                 </div>
             </section>
-            <aside class="bg-green-400 w-3/12">test</aside>
-        </div>
-    </main>
-</body>
+            <!-- Notice Table end-->
 
+
+
+            <!-- Teachers part start -->
+            <section class="mt-30px">
+                <div class="container mx-auto border-b pb-30px">
+                    <div class="flex justify-between items-center mb-6">
+                        <h2 class="text-primary font-bold font-in text-hd">
+                            আমাদের শিক্ষক/শিক্ষিকা
+                        </h2>
+                        <a
+                            class="bg-navcolor font-in font-semibold text-xl px-6 py-10px text-white cursor-pointer"
+                            >Show All</a
+                        >
+                    </div>
+                    <div class="flex justify-between">
+                        <div class="p-4 border w-[32%]">
+                            <img
+                                class="w-full h-[230px]"
+                                src="./assets/Frame.png"
+                                alt="Frame"
+                            />
+                            <h3 class="mt-5 mb-4 text-ptagcolor font-in">
+                                Chairman
+                            </h3>
+                            <h4
+                                class="font-bold font-in text-xl text-primary mb-5"
+                            >
+                                Brigadier General Tanveer Gani Chowdhury
+                            </h4>
+                            <a
+                                class="font-in hover:bg-Secondary py-2 w-full hover:text-white text-Secondary inline-block text-center border border-Secondary duration-500 ease-in-out cursor-pointer"
+                                >View Profile</a
+                            >
+                        </div>
+                        <div class="p-4 border w-[32%]">
+                            <img
+                                class="w-full h-[230px]"
+                                src="./assets/Frame.png"
+                                alt="Frame"
+                            />
+                            <h3 class="mt-5 mb-4 text-ptagcolor font-in">
+                                Chairman
+                            </h3>
+                            <h4
+                                class="font-bold font-in text-xl text-primary mb-5"
+                            >
+                                Brigadier General Tanveer Gani Chowdhury
+                            </h4>
+                            <a
+                                class="font-in hover:bg-Secondary py-2 w-full hover:text-white text-Secondary inline-block text-center border border-Secondary duration-500 ease-in-out cursor-pointer"
+                                >View Profile</a
+                            >
+                        </div>
+                        <div class="p-4 border w-[32%]">
+                            <img
+                                class="w-full h-[230px]"
+                                src="./assets/Frame.png"
+                                alt="Frame"
+                            />
+                            <h3 class="mt-5 mb-4 text-ptagcolor font-in">
+                                Chairman
+                            </h3>
+                            <h4
+                                class="font-bold font-in text-xl text-primary mb-5"
+                            >
+                                Brigadier General Tanveer Gani Chowdhury
+                            </h4>
+                            <a
+                                class="font-in hover:bg-Secondary py-2 w-full hover:text-white text-Secondary inline-block text-center border border-Secondary duration-500 ease-in-out cursor-pointer"
+                                >View Profile</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Teachers part end -->
+
+
+
+            <!-- News part start -->
+            <section class="mt-30px">
+                <div class="container mx-auto">
+                    <div class="flex justify-between items-center mb-6">
+                        <h2 class="text-primary font-bold font-in text-hd">
+                            News
+                        </h2>
+                        <a
+                            class="bg-navcolor font-in font-semibold text-xl px-6 py-10px text-white cursor-pointer"
+                            >Show All</a
+                        >
+                    </div>
+                    <div class="flex justify-between">
+                        <div class="p-4 border w-[32%]">
+                            <img
+                                class="w-full h-[230px]"
+                                src="./assets/Frame.png"
+                                alt="Frame"
+                            />
+                            <time class="mt-5 mb-4 text-ptagcolor font-in block"
+                                ><i
+                                    class="fa-solid fa-calendar-days text-2xl text-ptagcolor mr-3"
+                                ></i
+                                >23 December, 2023</time
+                            >
+                            <h4
+                                class="font-bold font-in text-xl text-primary mb-4"
+                            >
+                                Brigadier General Tanveer Gani Chowdhury
+                            </h4>
+                            <p
+                                class="mb-5 text-ptagcolor font-in block text-sm"
+                            >
+                                30 years ago the National University was
+                                established by an Act of Parliament as an
+                                affiliating University of the country to impart
+                                graduate and post-graduate edu.......
+                            </p>
+                            <a
+                                class="font-in hover:bg-Secondary py-2 w-full hover:text-white text-Secondary inline-block text-center border border-Secondary duration-500 ease-in-out cursor-pointer"
+                                >View Profile</a
+                            >
+                        </div>
+                        <div class="p-4 border w-[32%]">
+                            <img
+                                class="w-full h-[230px]"
+                                src="./assets/Frame.png"
+                                alt="Frame"
+                            />
+                            <time class="mt-5 mb-4 text-ptagcolor font-in block"
+                                ><i
+                                    class="fa-solid fa-calendar-days text-2xl text-ptagcolor mr-3"
+                                ></i
+                                >23 December, 2023</time
+                            >
+                            <h4
+                                class="font-bold font-in text-xl text-primary mb-4"
+                            >
+                                Brigadier General Tanveer Gani Chowdhury
+                            </h4>
+                            <p
+                                class="mb-5 text-ptagcolor font-in block text-sm"
+                            >
+                                30 years ago the National University was
+                                established by an Act of Parliament as an
+                                affiliating University of the country to impart
+                                graduate and post-graduate edu.......
+                            </p>
+                            <a
+                                class="font-in hover:bg-Secondary py-2 w-full hover:text-white text-Secondary inline-block text-center border border-Secondary duration-500 ease-in-out cursor-pointer"
+                                >View Profile</a
+                            >
+                        </div>
+                        <div class="p-4 border w-[32%]">
+                            <img
+                                class="w-full h-[230px]"
+                                src="./assets/Frame.png"
+                                alt="Frame"
+                            />
+                            <time class="mt-5 mb-4 text-ptagcolor font-in block"
+                                ><i
+                                    class="fa-solid fa-calendar-days text-2xl text-ptagcolor mr-3"
+                                ></i
+                                >23 December, 2023</time
+                            >
+                            <h4
+                                class="font-bold font-in text-xl text-primary mb-4"
+                            >
+                                Brigadier General Tanveer Gani Chowdhury
+                            </h4>
+                            <p
+                                class="mb-5 text-ptagcolor font-in block text-sm"
+                            >
+                                30 years ago the National University was
+                                established by an Act of Parliament as an
+                                affiliating University of the country to impart
+                                graduate and post-graduate edu.......
+                            </p>
+                            <a
+                                class="font-in hover:bg-Secondary py-2 w-full hover:text-white text-Secondary inline-block text-center border border-Secondary duration-500 ease-in-out cursor-pointer"
+                                >View Profile</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- News part end -->
+
+
+
+        </main>
+        <!-- main body part end-->
+
+
+
+        <!-- Footer part start -->
+        <footer class=" mb-60px border-t pt-30px mt-60px">
+            <div class="container mx-auto flex gap-x-30px">
+                <div class="w-2/5">
+                    <img
+                        src="./assets/Logo.png"
+                        alt="Logo"
+                        class="h-8 w-[80px]"
+                    />
+                    <p class="font-in text-ptagcolor w-[98%] mt-5 text-justify">
+                        তথ্যই শক্তি এ শ্লোগানকে সামনে রেখে বাংলাদেশ ইতোমধ্যে
+                        সংযুক্ত হয়েছে তথ্যপ্রযুক্তি মহাসড়ক (Information
+                        Technology Super Highway) নামক সাবমেরিন ক্যাবল লিংকের
+                        সাথে। সাবমেরিন ক্যাবল লিংকের সঙ্গে বাংলাদেশের যুক্ত
+                        হওয়াটা এ দেশবাসীর জন্য সত্যি শুভলক্ষণ। এর ফলে বাংলাদেশ
+                        সরাসরি যুক্ত হয়েছে Global Village এর সাথে এবং সূচনা
+                        হয়েছে এক নতুন দিগন্তের
+                    </p>
+                </div>
+                <div class="w-1/5">
+                    <h5
+                        class="font-in font-semibold text-lg text-navcolor mb-4"
+                    >
+                        Important Links
+                    </h5>
+                    <a class="font-in text-ptagcolor cursor-pointer block my-2"
+                        >Education Board</a
+                    >
+                    <a class="font-in text-ptagcolor cursor-pointer block my-2"
+                        >Dhaka Education Board</a
+                    >
+                    <a class="font-in text-ptagcolor cursor-pointer block my-2"
+                        >Ministry of Education</a
+                    >
+                    <a class="font-in text-ptagcolor cursor-pointer block my-2"
+                        >Brandeis</a
+                    >
+                    <a class="font-in text-ptagcolor cursor-pointer block my-2"
+                        >Directorate of Secondary & Higher Education</a
+                    >
+                </div>
+                <div class="w-1/5">
+                    <h5
+                        class="font-in font-semibold text-lg text-navcolor mb-4"
+                    >
+                        Internal Link
+                    </h5>
+                    <a class="font-in text-ptagcolor cursor-pointer block my-2"
+                        >Notice</a
+                    >
+                    <a class="font-in text-ptagcolor cursor-pointer block my-2"
+                        >Result</a
+                    >
+                    <a class="font-in text-ptagcolor cursor-pointer block my-2"
+                        >Departments</a
+                    >
+                    <a class="font-in text-ptagcolor cursor-pointer block my-2"
+                        >Our Teacher</a
+                    >
+                    <a class="font-in text-ptagcolor cursor-pointer block my-2"
+                        >News</a
+                    >
+                </div>
+                <div class="w-1/5">
+                    <h5
+                        class="font-in font-semibold text-lg text-navcolor mb-4"
+                    >
+                        Contact us
+                    </h5>
+                    <p class="font-in text-ptagcolor my-2">
+                        <i
+                            class="fa-solid fa-phone text-Secondary mr-3 bg-[#FFE9F1] p-2 rounded-full"
+                        ></i
+                        >(704) 555-0127
+                    </p>
+                    <p class="font-in text-ptagcolor my-2">
+                        <i
+                            class="fa-solid fa-envelope text-Secondary mr-3 bg-[#FFE9F1] p-2 rounded-full"
+                        ></i
+                        >alma.lawson@example.com
+                    </p>
+                    <p class="font-in text-ptagcolor my-2">
+                        <i
+                            class="fa-solid fa-location-dot text-Secondary mr-3 bg-[#FFE9F1] p-2 rounded-full"
+                        ></i
+                        >2972 Westheimer Rd. Santa Ana, Illinois 85486
+                    </p>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer part emd -->
+
+
+    </body>
 </html>
